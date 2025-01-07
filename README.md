@@ -40,6 +40,7 @@ The application is based on the application from the getting started tutorial at
 
 ## 7. REMOVE CONTAINER, IMAGE
 16) docker rm containerId/Name = xoa container duoc chi dinh
+16.1) docker rm -f containerId/Name = vua stop vua xoa container
 17) docker rm $(docker ps -aq) = xoa het tat ca container
 18) docker rm -f $(docker ps -aq) = xoa het tat ca container ke ca khi dang chay
               
