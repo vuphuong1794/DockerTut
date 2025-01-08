@@ -1,12 +1,6 @@
-# Getting started
-
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
 The application is based on the application from the getting started tutorial at https://github.com/docker/getting-started
-
-## Replace the old container
-1) docker build -t imageName .
-2) docker run -dp port:port imageName
 
 <h1 align="center">Docker basic command</h1> 
 
@@ -53,4 +47,8 @@ The application is based on the application from the getting started tutorial at
     + mkdir data (tạo folder lưu dữ liệu)
     + docker run -it -p 27017:27017 -v $(pwd)/data:/data/db --name mongo -d mongo
 ví dụ khi container bị lỗi hay ngưng hoạt động hay db bị dừng thì dữ liệu vẫn được duy trì mà ko bị mất
+
+## 10. REPLACE THE OLD CONTAINER
+1) docker build -t imageName .
+2) docker run -dp port:port imageName
 
