@@ -49,6 +49,10 @@ The application is based on the application from the getting started tutorial at
 ví dụ khi container bị lỗi hay ngưng hoạt động hay db bị dừng thì dữ liệu vẫn được duy trì mà ko bị mất
 
 ## 10. REPLACE THE OLD CONTAINER
-1) docker build -t imageName .
-2) docker run -dp port:port imageName
+22) docker build -t imageName .
+23) docker run -dp port:port imageName
+
+## 11. SHARE THE APPLICATION
+24) docker tag getting-started YOUR-USER-NAME/getting-started:tagname = Use the docker tag command to give the getting-started image a new name
+25) docker push YOUR-USER-NAME/getting-started
 
