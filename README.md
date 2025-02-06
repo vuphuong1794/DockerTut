@@ -56,3 +56,10 @@ ví dụ khi container bị lỗi hay ngưng hoạt động hay db bị dừng t
 24) docker tag getting-started YOUR-USER-NAME/getting-started:tagname = Use the docker tag command to give the getting-started image a new name
 25) docker push YOUR-USER-NAME/getting-started
 
+## 12. RUN DOCKER IMAGE FROM DOCKER HUB
+1) Open your browser to Play with Docker ( https://labs.play-with-docker.com/?_gl=1*18vurru*_ga*MTg0NjU5Nzk3NS4xNzM3MDg1OTQy*_ga_XJWPQMJYHQ*MTczODgxNzg2OS4zLjEuMTczODgxOTU3MS41OC4wLjA.)
+2) Select Login and then select docker from the drop-down list.
+3) Sign in with your Docker Hub account and then select Start.
+4) Select the ADD NEW INSTANCE option on the left side bar. If you don't see it, make your browser a little wider. After a few seconds, a terminal window opens in your browser.
+5) In the terminal, start your freshly pushed app. = docker run -dp 3000:3000 YOUR-USER-NAME/getting-started
+
