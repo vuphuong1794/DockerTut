@@ -53,6 +53,6 @@ ví dụ khi container bị lỗi hay ngưng hoạt động hay db bị dừng t
 23) docker run -dp port:port imageName
 
 ## 11. SHARE THE APPLICATION
-24) docker tag getting-started YOUR-USER-NAME/getting-started:tagname = Use the docker tag command to give the getting-started image a new name
+24) docker tag getting-started YOUR-USER-NAME/getting-started = Use the docker tag command to give the getting-started image a new name
 25) docker push YOUR-USER-NAME/getting-started
 
